@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Women's Day!</title>
+    <link rel="stylesheet" href="./tamba.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1>Happy Women's Day! 💐</h1>
+        <p class="gift">Quà cáp gì chưa chị đẹp ? 🎁</p>
+        <div class="nut" style="margin-top: 20px;">
+            <button id="btnMove" onmouseover="hoveredNo()">Chị đẹp có người tặng rồi nha</button>
+            <button id="btnClick">Chưa có ai tặng hết nè</button>
+        </div>
+    </div>
+
+    <div id="popup">
+        <p>Nhập tên chị đẹp vào đây, ghi đầy đủ VD: Phương Tuấn chứ ko ghi Jack</p>
+        <input type="text" id="inputName" placeholder="Tên chị đẹp">
+        <button onclick="showMessage()">Xác nhận</button>
+    </div>
+
+    <div id="messageBox">
+        <p id="messageText"></p>
+        <button onclick="closeMessage()">Đóng</button>
+    </div>
+    <script src="./tamba.js"></script>
+</body>
+</html>

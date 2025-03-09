@@ -1,0 +1,93 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('./sakura.gif') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+h1, .gift, #popup p, #messageBox p {
+    color: #ff4b5c;
+    font-weight: bold;
+}
+
+.gift {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+#btnMove {
+    background-color: #ff4b5c;
+    color: white;
+}
+
+#btnClick, #popup button, #messageBox button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#popup, #messageBox {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    font-size: 18px;
+    max-width: 80%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+#popup input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 80%;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #ff4b5c;
+    border-radius: 5px;
+}
