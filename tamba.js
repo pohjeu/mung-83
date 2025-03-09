@@ -27,11 +27,12 @@ function showMessage() {
     let name = document.getElementById("inputName").value.trim().toLowerCase();
     let messages = {
         "Thu Huyền": "Chúc chị sớm có bồ, mau giàu, ăn nhanh chóng lớn, làm việc nhớ giữ sức khỏe, say no with stress. Làm việc thì không cãi sếp, không đánh nhau với sếp (trừ khi thấy đánh xong có thể nhảy job ngon hơn thì cứ mạnh dạn 😊).",
-        "Như Hằng": "Chúc chị sớm có bồ, nếu có rồi thì chúc tình yêu bền vững như deadline, càng gần càng rộn ràng. Tiền đầy ví, công việc hanh thông, cơ hội tới tấp như quảng cáo trên YouTube hoặc web xem phim lậu.",
+        "Như Hằng": "Chúc chị 2 sớm có bồ, nếu có rồi thì chúc tình yêu bền vững như deadline, càng gần càng rộn ràng. Tiền đầy ví, công việc hanh thông, cơ hội tới tấp như quảng cáo trên YouTube hoặc web xem phim lậu.",
         "Vy Vương": "Chúc chị có công việc ổn định, 8386, thuận lợi, đặc biệt là chúc quen được Tuấn Long. Mà nếu vài năm nữa hay năm nay gửi thiệp cưới thì vui à nha, đừng để dân tình hóng dài cổ! 😊",
-        "Phương Thùy": "Chúc chị buôn may bán đắt, kinh doanh phát đạt, đường đời rộng mở, sự nghiệp thăng hoa như giá đất. Chúc anh Tư và chị Thùy trăm năm hạnh phúc, mà nhớ nghía sẵn mẫu thiệp cưới đi nghen, em đợi để đi dự cưới nha =)))",
+        "Vương Vy": "Chúc chị có công việc ổn định, 8386, thuận lợi, đặc biệt là chúc quen được Tuấn Long. Mà nếu vài năm nữa hay năm nay gửi thiệp cưới thì vui à nha, đừng để dân tình hóng dài cổ! 😊",
+        "Phương Thùy": "Chúc chị 4 buôn may bán đắt, kinh doanh phát đạt, đường đời rộng mở, sự nghiệp thăng hoa như giá đất. Chúc anh Tư và chị Thùy trăm năm hạnh phúc, mà nhớ nghía sẵn mẫu thiệp cưới đi nghen, em đợi để đi dự cưới nha =)))",
         "Khánh Vy": "Chúc chị sớm tìm được người tình trong mộng, hoặc nếu có rồi thì giữ cho chặt, đừng để thất thoát như tiền trong ví cuối tháng.",
-        "Thu Hậu": "Chúc chị cùng tên và cũng là cô giáo lúc nào cũng tràn đầy năng lượng, lên lớp như MC, học trò nghe giảng không ngủ gật, kiểm tra không xin hoãn, bài tập giao đến đâu hoàn thành đến đó.",
+        "Thu Hậu": "Chúc chị 3 cùng tên và cũng là cô giáo lúc nào cũng tràn đầy năng lượng, lên lớp như MC, học trò nghe giảng không ngủ gật, kiểm tra không xin hoãn, bài tập giao đến đâu hoàn thành đến đó.",
         "Hồng Ngọc": "Chúc chị phát tài, tình duyên như ý, công việc suôn sẻ, sếp hiền như Phật, lương tăng vèo vèo.",
     };
     
