@@ -36,7 +36,7 @@ function showMessage() {
     };
 
     let images = {
-        "Thu Huyền": "./pictures/1.jpg",
+        "Thu Huyền": "./pictures/thuyen.jpg",
         "Như Hằng": "./pictures/nhang.jpg",
         "Vy Vương": "./pictures/vuongvy.jpg",
         "Vương Vy": "./pictures/vuongvy.jpg",
