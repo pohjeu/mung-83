@@ -47,3 +47,8 @@ function closeMessage() {
     document.getElementById("messageBox").style.display = "none";
     document.getElementById("mainContainer").style.display = "block";
 }
+
+document.getElementById("playMusic").addEventListener("click", () => {
+    const audio = document.getElementById("bgMusic");
+    audio.play().catch(error => console.log("Tự động phát bị chặn:", error));
+});
